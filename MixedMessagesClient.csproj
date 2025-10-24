@@ -8,4 +8,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ably.io" Version="1.2.16" />
+  </ItemGroup>
+
 </Project>
