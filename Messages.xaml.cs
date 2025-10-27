@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MixedMessagesClient
 {
     /// <summary>
-    /// Логика взаимодействия для ChatAccount.xaml
+    /// Interaction logic for Messages.xaml
     /// </summary>
-    public partial class ChatAccount : Page
+    public partial class Messages : Window
     {
-        public ChatAccount()
+        public Messages()
         {
             InitializeComponent();
         }
