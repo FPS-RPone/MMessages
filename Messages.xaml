@@ -6,7 +6,26 @@
         xmlns:local="clr-namespace:MixedMessagesClient"
         mc:Ignorable="d"
         Title="Messages" Height="450" Width="800" Background="#282828" FontSize="18">
-    <Grid>
         
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="85*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="75*" Name="messageGrid"/>
+        </Grid.ColumnDefinitions>
+
+
+        <DockPanel Grid.Column="1" Grid.Row="1" LastChildFill="True">
+            <DockPanel DockPanel.Dock="Bottom" LastChildFill="True" Height="35">
+                <Button Name="buttSend" Click="buttSend_Click" Content="Отправить" HorizontalAlignment="Left" DockPanel.Dock="Right"/>
+                <TextBox Name="tBoxMessage" HorizontalAlignment="Stretch" DockPanel.Dock="Left"/>
+            </DockPanel>
+            <ListBox Name="lBoxMessages"/>
+        </DockPanel>
     </Grid>
 </Window>

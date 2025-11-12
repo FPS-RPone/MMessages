@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using IO.Ably;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,10 +20,13 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        tBoxPassword.Visibility = Visibility.Hidden;
+        
     }
 
     private void buttLogin_Click(object sender, RoutedEventArgs e)
     {
-
+        Window window = new Messages();
+        window.ShowDialog();
     }
 }
