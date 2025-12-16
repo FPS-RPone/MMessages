@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "aRGoqBWwpWR7yspFUBOnzWwNrEWoHzo2+81ZuEnkLzM=",
+  "Source": "KRApi",
+  "BasePath": "_content/KRApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

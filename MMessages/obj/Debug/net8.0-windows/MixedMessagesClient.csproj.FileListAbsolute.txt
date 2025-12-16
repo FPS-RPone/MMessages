@@ -1,0 +1,171 @@
+D:\227\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.exe
+D:\227\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.deps.json
+D:\227\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.runtimeconfig.json
+D:\227\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.dll
+D:\227\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.pdb
+D:\227\MMessages\bin\Debug\net8.0-windows\IO.Ably.DeltaCodec.dll
+D:\227\MMessages\bin\Debug\net8.0-windows\IO.Ably.dll
+D:\227\MMessages\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.AssemblyReference.cache
+D:\227\MMessages\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\227\MMessages\obj\Debug\net8.0-windows\Messages.g.cs
+D:\227\MMessages\obj\Debug\net8.0-windows\App.g.cs
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.cache
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.lref
+D:\227\MMessages\obj\Debug\net8.0-windows\MainWindow.baml
+D:\227\MMessages\obj\Debug\net8.0-windows\Messages.baml
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.g.resources
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfoInputs.cache
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfo.cs
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.CoreCompileInputs.cache
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.sourcelink.json
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMes.CD61165C.Up2Date
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.dll
+D:\227\MMessages\obj\Debug\net8.0-windows\refint\MixedMessagesClient.dll
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.pdb
+D:\227\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.genruntimeconfig.cache
+D:\227\MMessages\obj\Debug\net8.0-windows\ref\MixedMessagesClient.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\MixedMessagesClient.exe
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\MixedMessagesClient.deps.json
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\MixedMessagesClient.runtimeconfig.json
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\MixedMessagesClient.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\MixedMessagesClient.pdb
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.cache
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.lref
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.g.resources
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfo.cs
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMes.CD61165C.Up2Date
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.dll
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\refint\MixedMessagesClient.dll
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.pdb
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\MixedMessagesClient.genruntimeconfig.cache
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\ref\MixedMessagesClient.dll
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\Mess.g.cs
+C:\Users\Student\Desktop\MMessages-main\obj\Debug\net8.0-windows\Mess.baml
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Extensions.Features.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\System.Net.ServerSentEvents.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\System.Threading.Channels.dll
+C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.AssemblyReference.cache
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\Mess.g.cs
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\App.g.cs
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.cache
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.lref
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.dll
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\refint\MixedMessagesClient.dll
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.pdb
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.exe
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.deps.json
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.runtimeconfig.json
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.pdb
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Http.Connections.Client.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Client.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Client.Core.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Common.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Bcl.TimeProvider.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Features.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\System.Net.ServerSentEvents.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\System.Text.Json.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\System.Threading.Channels.dll
+E:\Filezzz\MMessages\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MainWindow.baml
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\Mess.baml
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.g.resources
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfoInputs.cache
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfo.cs
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.CoreCompileInputs.cache
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.sourcelink.json
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMes.CD61165C.Up2Date
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.genruntimeconfig.cache
+E:\Filezzz\MMessages\obj\Debug\net8.0-windows\ref\MixedMessagesClient.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.exe
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.deps.json
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.runtimeconfig.json
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\MixedMessagesClient.pdb
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Features.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\System.Net.ServerSentEvents.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\System.Threading.Channels.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\Mess.g.cs
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.cache
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.lref
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\Mess.baml
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.g.resources
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfo.cs
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.sourcelink.json
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMes.CD61165C.Up2Date
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\refint\MixedMessagesClient.dll
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.pdb
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.genruntimeconfig.cache
+C:\Users\Student\Desktop\Новая папка\MMessages\obj\Debug\net8.0-windows\ref\MixedMessagesClient.dll
