@@ -1,7 +1,4 @@
-﻿using IO.Ably;
-using IO.Ably.Realtime;
-using IO.Ably.Rest;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,15 +19,9 @@ namespace MixedMessagesClient
     /// </summary>
     public partial class Messages : Window
     {
-        AblyRealtime ably = new AblyRealtime("FAZ-qw.-u0lHw:lyX4DPHqfBMUvs5bWGSpb1HnALRaeGmvP53j7LsTePY");
         public Messages()
         {
             InitializeComponent();
-            ably.Connect();
-            ably.Connection.On(ConnectionEvent.Connected, args =>
-            {
-                
-            });
         }
         
 

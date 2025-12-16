@@ -21,23 +21,27 @@ namespace MixedMessagesClient
     {
         public class Message
         {
-            string? Text;
-            string? Date;
+            public string? MessageText {get; set;}
+            public string? MessageDate { get; set;}
+            public bool isSent { get; set; } = false;
 
             public Message(string? text, string? date)
             {
-                Text = text;
-                Date = date;
+                MessageText = text;
+                MessageDate = date;
             }
         }
 
-        List<Message> messages = new List<Message>();
         public Mess()
         {
+            List<Message> messages = new List<Message>();
+
+            messages.Add(new Message("meeee", DateTime.Now.ToString()));
+            messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
+            messages.Add(new Message("wtf", DateTime.Now.ToString()));
+            messages[1].isSent = true;
+
             InitializeComponent();
-            messages.Add(new Message("meeee", "9.9.9"));
-            messages.Add(new Message("aaaaaa", "9.9"));
-            messages.Add(new Message("wtf", "91.9.9"));
 
             lBoxMessages.ItemsSource = messages;
         }
