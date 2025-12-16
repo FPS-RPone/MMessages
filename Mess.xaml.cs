@@ -19,31 +19,38 @@ namespace MixedMessagesClient
     /// </summary>
     public partial class Mess : Window
     {
-        public class Message
-        {
-            public string? MessageText {get; set;}
-            public string? MessageDate { get; set;}
-            public bool isSent { get; set; } = false;
-
-            public Message(string? text, string? date)
-            {
-                MessageText = text;
-                MessageDate = date;
-            }
-        }
-
         public Mess()
         {
             List<Message> messages = new List<Message>();
 
+            List<Contact> contacts = new List<Contact>();
+
             messages.Add(new Message("meeee", DateTime.Now.ToString()));
             messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
             messages.Add(new Message("wtf", DateTime.Now.ToString()));
-            messages[1].isSent = true;
+            messages.Add(new Message("meeee", DateTime.Now.ToString()));
+            messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
+            messages.Add(new Message("wtf", DateTime.Now.ToString()));
+            messages.Add(new Message("meeee", DateTime.Now.ToString()));
+            messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
+            messages.Add(new Message("wtf", DateTime.Now.ToString()));
+            messages.Add(new Message("meeee", DateTime.Now.ToString()));
+            messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
+            messages.Add(new Message("wtf", DateTime.Now.ToString()));
+
+            contacts.Add(new Contact("Honse"));
+
+            foreach(var message in messages)
+            {
+                if (message.MessageText == "i luv my bf :3")
+                    message.isSent = true;
+            }
 
             InitializeComponent();
 
             lBoxMessages.ItemsSource = messages;
+
+            lBoxContacts.ItemsSource = contacts;
         }
     }
 }

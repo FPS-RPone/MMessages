@@ -76,7 +76,6 @@ C:\Users\Student\Desktop\MMessages-main\bin\Debug\net8.0-windows\runtimes\browse
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.csproj.AssemblyReference.cache
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MainWindow.g.cs
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\Mess.g.cs
-E:\Filezzz\MMessages\obj\Debug\net8.0-windows\Messages.g.cs
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\App.g.cs
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.cache
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient_MarkupCompile.lref
@@ -113,7 +112,6 @@ E:\Filezzz\MMessages\bin\Debug\net8.0-windows\System.Threading.Channels.dll
 E:\Filezzz\MMessages\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MainWindow.baml
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\Mess.baml
-E:\Filezzz\MMessages\obj\Debug\net8.0-windows\Messages.baml
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.g.resources
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.GeneratedMSBuildEditorConfig.editorconfig
 E:\Filezzz\MMessages\obj\Debug\net8.0-windows\MixedMessagesClient.AssemblyInfoInputs.cache
