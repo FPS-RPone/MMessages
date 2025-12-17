@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using Microsoft.AspNetCore.SignalR.Client;
+using System.Drawing;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,15 +18,48 @@ namespace MixedMessagesClient;
 /// </summary>
 public partial class MainWindow : Window
 {
+    HubConnection connection;
     public MainWindow()
     {
         InitializeComponent();
         tBoxPassword.Visibility = Visibility.Hidden;
         
+        connection = new HubConnectionBuilder()
+            .WithUrl("http://localhost:5089/chat")
+            .WithAutomaticReconnect()
+            .Build();
+
+        connection.On<bool>("GetResult", (result) =>
+        {
+            Dispatcher.Invoke(() =>
+            {
+                tBoxStatus.Text = result.ToString();
+            });
+        });
+
+        try
+        {
+            connection.StartAsync();
+            tBoxStatus.Text = "Online!";
+        }
+        catch (Exception ex)
+        {
+            tBoxStatus.Text = ex.Message;
+        }
     }
 
-    private void buttLogin_Click(object sender, RoutedEventArgs e)
+    private async void buttLogin_Click(object sender, RoutedEventArgs e)
     {
-        
+        string password = tBoxPassword.Text;
+        string username = tBoxLogin.Text;
+
+        try
+        {
+            await connection.InvokeAsync("Login", username, password);
+        }
+        catch (Exception ex)
+        {
+            tBoxStatus.Text = ex.Message;
+        }
     }
 }

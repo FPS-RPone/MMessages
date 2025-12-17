@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.SignalR.Client;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,32 +27,15 @@ namespace MixedMessagesClient
 
             List<Contact> contacts = new List<Contact>();
 
-            messages.Add(new Message("meeee", DateTime.Now.ToString()));
-            messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
-            messages.Add(new Message("wtf", DateTime.Now.ToString()));
-            messages.Add(new Message("meeee", DateTime.Now.ToString()));
-            messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
-            messages.Add(new Message("wtf", DateTime.Now.ToString()));
-            messages.Add(new Message("meeee", DateTime.Now.ToString()));
-            messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
-            messages.Add(new Message("wtf", DateTime.Now.ToString()));
-            messages.Add(new Message("meeee", DateTime.Now.ToString()));
-            messages.Add(new Message("i luv my bf :3", DateTime.Now.ToString()));
-            messages.Add(new Message("wtf", DateTime.Now.ToString()));
-
-            contacts.Add(new Contact("Honse"));
-
-            foreach(var message in messages)
-            {
-                if (message.MessageText == "i luv my bf :3")
-                    message.isSent = true;
-            }
-
             InitializeComponent();
 
             lBoxMessages.ItemsSource = messages;
 
             lBoxContacts.ItemsSource = contacts;
+        }
+
+        private void buttSend_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

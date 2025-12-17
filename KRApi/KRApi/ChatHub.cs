@@ -5,32 +5,18 @@ namespace KRApi
 {
     public class ChatHub : Hub {
         internal static DbChatContext db = new DbChatContext();
-
-        public async Task Send(int SentById, int ChatId, string MessageText)
-        {  
-            try {
-                var chat = await db.Chats.FirstOrDefaultAsync(x => x.Id == ChatId);
-
-                List<Message> messages;
-
-                await Task.Run(() =>
-                {
-                    if (chat != null && chat.messages != null)
-                        messages = chat.messages;
-                    else messages = new List<Message>();
-
-                        var Message = new Message(SentById, MessageText, DateTime.Now.ToString());
-
-                    chat!.messages.Add(Message);
-                });
-
-                await Clients.Caller.SendAsync(messages);
-            }
-            catch(Exception ex)
+        internal static List<Tuple<string, int>> connectedAccounts = new List<Tuple<string, int>>();
+        //ConnectionId - AccountId
+        public async Task Login(string username, string password)
+        {
+            var account = db.accounts.Where(x => (x.Name == username && x.Password == password)).FirstOrDefaultAsync();
+            if (account == null)
             {
-                await Clients.Caller.SendAsync(ex.ToString());
+                await Clients.Caller.SendAsync("GetResult", false);
+                return;
             }
+            else await Clients.Caller.SendAsync("GetResult", true);
+            connectedAccounts.Add(new Tuple<string, int>(Context.ConnectionId, account.Id));
         }
-
     }
 }

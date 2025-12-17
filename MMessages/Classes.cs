@@ -9,26 +9,32 @@ namespace MixedMessagesClient
 {
     public class Message
     {
-        public string? MessageText { get; set; }
-        public string? MessageDate { get; set; }
-        public bool isSent { get; set; } = false;
+        public string? MessageText { get; }
+        public string? MessageDate { get; }
+        public bool IsSent { get; set; }
+        private int SentById = 0;
+        
 
-        public Message(string? text, string? date)
+        public Message(string? text, int sentById, string? date)
         {
             MessageText = text;
+            SentById = sentById;
             MessageDate = date;
+
         }
     }
 
     public class Contact
     {
-        public int? Id { get; } = 0;
-        public string? Name { get; set; }
-        public string? Pfp { get; set; } = "mrbrokenglasses.png";
+        public string Tag { get; }
+        public string? Nickname { get; set; }
+        public string? Image { get; } = "mrbrokenglasses.png";
         //public Image? Pfp { get; set; }
 
-        public Contact(string? name) {
-            Name = name;
+        public Contact(string tag, string nickname)
+        {
+            Nickname = nickname;
+            Tag = tag;
         }
     }
 }

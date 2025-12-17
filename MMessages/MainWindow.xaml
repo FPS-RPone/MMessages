@@ -21,6 +21,11 @@
     
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Server:   " Style="{StaticResource tBlockStock}" HorizontalAlignment="Center" Width="auto"/>
+                <TextBlock Name="tBoxServerStatus" Text="Offline" Style="{StaticResource tBlockStock}" Width="auto"/>
+            </StackPanel>
+            <TextBlock Name="tBoxStatus" Foreground="OrangeRed" Style="{StaticResource tBlockStock}" Padding="15 10" Margin="5"/>
             <TextBlock Text="Логин" Style="{StaticResource tBlockStock}" Padding="15 10" Margin="5"/>
             <TextBox Name="tBoxLogin" Width="400" Padding="15 10" Margin="5"/>
             <TextBlock Text="Пароль" Style="{StaticResource tBlockStock}" Padding="15 10" Margin="5"/>

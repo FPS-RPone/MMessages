@@ -54,7 +54,7 @@
         
         <DockPanel Grid.Column="2">
             <DockPanel DockPanel.Dock="Bottom" MinHeight="35">
-                <Button Content="Отправить" DockPanel.Dock="Right" Padding="5" Margin="3"/>
+                <Button Name="buttSend" Click="buttSend_Click" Content="Отправить" DockPanel.Dock="Right" Padding="5" Margin="3"/>
                 <TextBox DockPanel.Dock="Left" Margin="3"/>
             </DockPanel>
             <ListBox ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" Name="lBoxMessages" Focusable="False"
@@ -66,15 +66,16 @@
                                 <StackPanel Orientation="Vertical" x:Name="stackPanelMessage" Style="{StaticResource tBoxMessage}">
                                         <TextBlock Text="{Binding Path=MessageText}"  Padding="5 2 5 2" Margin="1"/>
                                         <TextBlock Text="{Binding Path=MessageDate}" FontSize="12" Padding="5 0 5 2" Margin="1"/>
+                                        <TextBlock Text="{Binding Path=IsSent}" FontSize="18" Padding="5 0 5 2" Margin="1"/>
                                 </StackPanel>
                             </Border>
                             </DockPanel>
                         <DataTemplate.Triggers>
-                            <DataTrigger Binding="{Binding isSent}" Value="true">
+                            <DataTrigger Binding="{Binding IsSent}" Value="True">
                                 <Setter TargetName="borderMessage" Property="DockPanel.Dock" Value="Right"/>
                                 <Setter TargetName="borderMessage" Property="Background" Value="PaleGreen"/>
                             </DataTrigger>
-                            <DataTrigger Binding="{Binding isSent}" Value="false">
+                            <DataTrigger Binding="{Binding IsSent}" Value="False">
                                 <Setter TargetName="borderMessage" Property="DockPanel.Dock" Value="Left"/>
                                 <Setter TargetName="borderMessage" Property="Background" Value="DarkSlateBlue"/>
                             </DataTrigger>

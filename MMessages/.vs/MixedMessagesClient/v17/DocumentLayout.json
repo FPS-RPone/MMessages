@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\",
+  "WorkspaceRootPath": "E:\\!\\MMessages\\MMessages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|c:\\users\\student\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\mmessages\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|e:\\!\\mmessages\\mmessages\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|c:\\users\\student\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\mmessages\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|c:\\users\\student\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\mmessages\\mess.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:mess.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|c:\\users\\student\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\mmessages\\mess.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|e:\\!\\mmessages\\mmessages\\mess.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:mess.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|c:\\users\\student\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\mmessages\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|e:\\!\\mmessages\\mmessages\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|e:\\!\\mmessages\\mmessages\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|e:\\!\\mmessages\\mmessages\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|e:\\!\\mmessages\\mmessages\\mess.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:mess.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|e:\\!\\mmessages\\mmessages\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3662337F-0713-45B9-A014-B557C58BD237}|MixedMessagesClient.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 453,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Classes.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\Classes.cs",
+              "DocumentMoniker": "E:\\!\\MMessages\\MMessages\\Classes.cs",
               "RelativeDocumentMoniker": "Classes.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\Classes.cs",
+              "ToolTip": "E:\\!\\MMessages\\MMessages\\Classes.cs",
               "RelativeToolTip": "Classes.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwCEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAASwBMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T00:59:48.714Z",
               "IsPinned": true,
@@ -52,75 +60,80 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\!\\MMessages\\MMessages\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "E:\\!\\MMessages\\MMessages\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-17T00:59:06.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Mess.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\Mess.xaml.cs",
+              "DocumentMoniker": "E:\\!\\MMessages\\MMessages\\Mess.xaml.cs",
               "RelativeDocumentMoniker": "Mess.xaml.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\Mess.xaml.cs",
+              "ToolTip": "E:\\!\\MMessages\\MMessages\\Mess.xaml.cs",
               "RelativeToolTip": "Mess.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswDQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T07:15:18.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mess.xaml",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\Mess.xaml",
-              "RelativeDocumentMoniker": "Mess.xaml",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\Mess.xaml",
-              "RelativeToolTip": "Mess.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-11T07:01:22.562Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\!\\MMessages\\MMessages\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "E:\\!\\MMessages\\MMessages\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T21:29:47.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Mess.xaml",
+              "DocumentMoniker": "E:\\!\\MMessages\\MMessages\\Mess.xaml",
+              "RelativeDocumentMoniker": "Mess.xaml",
+              "ToolTip": "E:\\!\\MMessages\\MMessages\\Mess.xaml",
+              "RelativeToolTip": "Mess.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T07:01:22.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\!\\MMessages\\MMessages\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\!\\MMessages\\MMessages\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wBwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T06:46:40.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\MainWindow.xaml",
+              "DocumentMoniker": "E:\\!\\MMessages\\MMessages\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MMessages\\MainWindow.xaml",
+              "ToolTip": "E:\\!\\MMessages\\MMessages\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-26T19:19:46.44Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 188,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
