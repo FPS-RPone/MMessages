@@ -15,10 +15,10 @@ namespace MixedMessagesClient
         private int SentById = 0;
         
 
-        public Message(string? text, int sentById, string? date)
+        public Message(string? text, bool isSent, string? date)
         {
             MessageText = text;
-            SentById = sentById;
+            IsSent = isSent;
             MessageDate = date;
 
         }
@@ -28,7 +28,7 @@ namespace MixedMessagesClient
     {
         public string Tag { get; }
         public string? Nickname { get; set; }
-        public string? Image { get; } = "mrbrokenglasses.png";
+        public string? Image { get; set; } = "E:\\!\\mrbrokenglasses.png";
         //public Image? Pfp { get; set; }
 
         public Contact(string tag, string nickname)

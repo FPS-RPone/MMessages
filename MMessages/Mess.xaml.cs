@@ -2,6 +2,7 @@
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,21 +22,36 @@ namespace MixedMessagesClient
     /// </summary>
     public partial class Mess : Window
     {
+        List<Message> messages;
         public Mess()
         {
-            List<Message> messages = new List<Message>();
+            messages = new List<Message>();
 
-            List<Contact> contacts = new List<Contact>();
+            messages.Add(new Message("Привет", true, DateTime.Now.ToString()));
+            messages.Add(new Message("Привет", false, DateTime.Now.ToString()));
+            messages.Add(new Message("И тебе привет", true, DateTime.Now.ToString()));
+            messages.Add(new Message("Как жизнь?", false, DateTime.Now.ToString()));
+            messages.Add(new Message("Всё хорошо!", true, DateTime.Now.ToString()));
+            messages.Add(new Message("Пока ;)", false, DateTime.Now.ToString()));
 
             InitializeComponent();
 
             lBoxMessages.ItemsSource = messages;
-
-            lBoxContacts.ItemsSource = contacts;
         }
 
         private void buttSend_Click(object sender, RoutedEventArgs e)
         {
+        }
+
+        private void tBoxSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            lBoxMessages.ItemsSource = null;
+            if (tBoxSearch.Text != null && tBoxSearch.Text != "")
+            {
+                lBoxMessages.ItemsSource = messages.Where(x => x.MessageText!.Contains(tBoxSearch.Text)).ToList();
+            }
+            else
+                lBoxMessages.ItemsSource = messages;
         }
     }
 }

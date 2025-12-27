@@ -22,7 +22,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        tBoxPassword.Visibility = Visibility.Hidden;
+        //tBoxPassword.Visibility = Visibility.Hidden;
         
         connection = new HubConnectionBuilder()
             .WithUrl("http://localhost:5089/chat")
@@ -40,7 +40,7 @@ public partial class MainWindow : Window
         try
         {
             connection.StartAsync();
-            tBoxStatus.Text = "Online!";
+            //tBoxStatus.Text = "Online!";
         }
         catch (Exception ex)
         {
@@ -50,16 +50,19 @@ public partial class MainWindow : Window
 
     private async void buttLogin_Click(object sender, RoutedEventArgs e)
     {
-        string password = tBoxPassword.Text;
+        string password = tBoxPassword.Password;
         string username = tBoxLogin.Text;
 
         try
         {
-            await connection.InvokeAsync("Login", username, password);
+            tBoxStatus.Text = "Неправильный логин или пароль";
+            
+            //await connection.InvokeAsync("Login", username, password);
         }
         catch (Exception ex)
         {
-            tBoxStatus.Text = ex.Message;
+            MessageBox.Show("Не удалось подключиться к серверу", "Ошибка");
+            tBlockStatus.Text = ex.ToString();
         }
     }
 }

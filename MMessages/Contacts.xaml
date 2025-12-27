@@ -1,0 +1,31 @@
+﻿<Window x:Class="MixedMessagesClient.Contacts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MixedMessagesClient"
+        mc:Ignorable="d"
+        Title="Contacts" Height="450" Width="800" Background="#282828" FontSize="18">
+    <Grid>
+        <DockPanel>
+            <DockPanel DockPanel.Dock="Top" Margin="5">
+                <Button Content="STN" Margin="5 0 5 0" Padding="3" DockPanel.Dock="Left"/>
+                <TextBox x:Name="tBoxSearch" HorizontalAlignment="Stretch" Margin="5 0 5 0"/>
+            </DockPanel>
+            <ListBox x:Name="lBoxContacts" Margin="5" DockPanel.Dock="Bottom" Background="#282828">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border Name="borderContact">
+                            <DockPanel HorizontalAlignment="Stretch" Width="auto" MaxHeight="50">
+                                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Stretch">
+                                    <Image MaxHeight="50" MaxWidth="50" Name="imageContact" Height="{Binding ElementName=imageContact, Path=Width}" Source="{Binding Path=Image}" Margin="2"/>
+                                    <TextBlock Text="{Binding Path=Nickname}" Foreground="WhiteSmoke" DockPanel.Dock="Right" Margin="2" Padding="3" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
+                                </StackPanel>
+                            </DockPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </DockPanel>
+    </Grid>
+</Window>

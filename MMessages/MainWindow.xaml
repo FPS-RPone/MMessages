@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MixedMessagesClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#282828" FontSize="18">
+        Title="Вход" Height="450" Width="800" Background="#282828" FontSize="18">
 
     <Window.Resources>
         <Style x:Key="tBlockStock">
@@ -21,7 +21,7 @@
     
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" Margin="0 30 0 0">
                 <TextBlock Text="Server:   " Style="{StaticResource tBlockStock}" HorizontalAlignment="Center" Width="auto"/>
                 <TextBlock Name="tBoxServerStatus" Text="Offline" Style="{StaticResource tBlockStock}" Width="auto"/>
             </StackPanel>
@@ -29,7 +29,7 @@
             <TextBlock Text="Логин" Style="{StaticResource tBlockStock}" Padding="15 10" Margin="5"/>
             <TextBox Name="tBoxLogin" Width="400" Padding="15 10" Margin="5"/>
             <TextBlock Text="Пароль" Style="{StaticResource tBlockStock}" Padding="15 10" Margin="5"/>
-            <TextBox Name="tBoxPassword" Width="400" Padding="15 10" Margin="5"/>
+            <PasswordBox Name="tBoxPassword" Width="400" Padding="15 10" Margin="5" />
             <Button Name="buttLogin" Click="buttLogin_Click" Content="Войти" Width="140" Height="50" Padding="15 10" Margin="15"/>
             <TextBlock Name="tBlockStatus" Foreground="OrangeRed" Style="{StaticResource tBlockStock}" Padding="15 10" Margin="5"/>
         </StackPanel>

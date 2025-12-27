@@ -23,35 +23,15 @@
             <ColumnDefinition Width="75*"/>
         </Grid.ColumnDefinitions>
 
-        <GridSplitter Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Center" Width="3"/>
+        <GridSplitter Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Stretch" Width="2"/>
 
-        <DockPanel>
-            <DockPanel DockPanel.Dock="Top" Margin="5">
-                <Button Content="STN" Margin="5 0 5 0" Padding="3" DockPanel.Dock="Left"/>
-                <TextBox x:Name="tBoxSearch" HorizontalAlignment="Stretch" Margin="5 0 5 0"/>
+        <DockPanel Grid.Column="0" HorizontalAlignment="Stretch" Width="auto" LastChildFill="False">
+            <DockPanel DockPanel.Dock="Top" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Button Content="STN" Margin="5" Padding="3" DockPanel.Dock="Left"/>
+                <TextBox TextChanged="tBoxSearch_TextChanged" x:Name="tBoxSearch" HorizontalAlignment="Stretch" Margin="5"/>
             </DockPanel>
-            <ListBox x:Name="lBoxContacts" Margin="5" DockPanel.Dock="Bottom">
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
-                        <Border Background="DarkSlateBlue" Name="borderContact">
-                            <StackPanel Orientation="Horizontal" Margin="5" Name="stackPanelContact">
-                                <Border CornerRadius="15">
-                                    <Image Source="{Binding Source=Pfp}" Margin="2"/>
-                                </Border>
-                                <TextBlock Text="{Binding Path=Name}" Margin="2" Padding="3"/>
-                            </StackPanel>
-                        </Border>
-                        <DataTemplate.Triggers>
-                            <DataTrigger Binding="{Binding RelativeSource={RelativeSource 
-                                Mode=FindAncestor, AncestorType={x:Type ListBoxItem}}, Path=IsSelected}" Value="True">
-                                <Setter TargetName="borderContact" Property="Background" Value="PaleGreen"/>
-                            </DataTrigger>
-                        </DataTemplate.Triggers>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
         </DockPanel>
-        
+
         <DockPanel Grid.Column="2">
             <DockPanel DockPanel.Dock="Bottom" MinHeight="35">
                 <Button Name="buttSend" Click="buttSend_Click" Content="Отправить" DockPanel.Dock="Right" Padding="5" Margin="3"/>
@@ -63,10 +43,13 @@
                     <DataTemplate x:Name="dataTempMessage">
                             <DockPanel LastChildFill="False">
                             <Border x:Name="borderMessage" CornerRadius="15">
-                                <StackPanel Orientation="Vertical" x:Name="stackPanelMessage" Style="{StaticResource tBoxMessage}">
-                                        <TextBlock Text="{Binding Path=MessageText}"  Padding="5 2 5 2" Margin="1"/>
-                                        <TextBlock Text="{Binding Path=MessageDate}" FontSize="12" Padding="5 0 5 2" Margin="1"/>
-                                        <TextBlock Text="{Binding Path=IsSent}" FontSize="18" Padding="5 0 5 2" Margin="1"/>
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="E:\\!\\mrbrokenglasses.png" MaxWidth="25" MaxHeight="25" x:Name="messageImage"/>
+                                    <TextBlock Name="messageName" Text="Bill" Foreground="WhiteSmoke" DockPanel.Dock="Right" Margin="2" Padding="3" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
+                                    <StackPanel Orientation="Vertical" x:Name="stackPanelMessage" Style="{StaticResource tBoxMessage}">
+                                            <TextBlock Text="{Binding Path=MessageText}"  Padding="5 2 5 2" Margin="1"/>
+                                            <TextBlock Text="{Binding Path=MessageDate}" FontSize="12" Padding="5 0 5 2" Margin="1"/>
+                                    </StackPanel>
                                 </StackPanel>
                             </Border>
                             </DockPanel>
@@ -74,6 +57,9 @@
                             <DataTrigger Binding="{Binding IsSent}" Value="True">
                                 <Setter TargetName="borderMessage" Property="DockPanel.Dock" Value="Right"/>
                                 <Setter TargetName="borderMessage" Property="Background" Value="PaleGreen"/>
+                                <Setter TargetName="messageImage" Property="Visibility" Value="Hidden"/>
+                                <Setter TargetName="messageName" Property="Text" Value="Вы"/>
+                                <Setter TargetName="messageName" Property="Foreground" Value="#282828"/>
                             </DataTrigger>
                             <DataTrigger Binding="{Binding IsSent}" Value="False">
                                 <Setter TargetName="borderMessage" Property="DockPanel.Dock" Value="Left"/>

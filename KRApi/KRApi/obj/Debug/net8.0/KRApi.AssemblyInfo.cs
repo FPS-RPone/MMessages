@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KRApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1056e078e810ea3a0e738fe187f19bfd3710be96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f360708011badca33611af6ff3ea2542c028f299")]
 [assembly: System.Reflection.AssemblyProductAttribute("KRApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KRApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

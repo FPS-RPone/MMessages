@@ -11,16 +11,20 @@
       "RelativeMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|solutionrelative:krapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|e:\\!\\mmessages\\krapi\\krapi\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|solutionrelative:krapi\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|e:\\!\\mmessages\\krapi\\krapi\\classes\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|solutionrelative:krapi\\classes\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|e:\\!\\mmessages\\krapi\\krapi\\krapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|solutionrelative:krapi\\krapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|e:\\!\\mmessages\\krapi\\krapi\\classes\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|solutionrelative:krapi\\classes\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|e:\\!\\mmessages\\krapi\\krapi\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|solutionrelative:krapi\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|e:\\!\\mmessages\\krapi\\krapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|e:\\!\\mmessages\\krapi\\krapi\\dbchatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|solutionrelative:krapi\\dbchatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|e:\\!\\mmessages\\krapi\\krapi\\krapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F2006C4A-3705-437B-A9AF-5B62F177A02C}|KRApi\\KRApi.csproj|solutionrelative:krapi\\krapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\!\\MMessages\\KRApi\\KRApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "KRApi\\Properties\\launchSettings.json",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Message.cs",
               "DocumentMoniker": "E:\\!\\MMessages\\KRApi\\KRApi\\Classes\\Message.cs",
               "RelativeDocumentMoniker": "KRApi\\Classes\\Message.cs",
@@ -74,7 +74,8 @@
               "RelativeToolTip": "KRApi\\Classes\\Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T00:17:10.896Z"
+              "WhenOpened": "2025-12-17T00:17:10.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -86,11 +87,12 @@
               "RelativeToolTip": "KRApi\\Classes\\Chat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T00:16:35.819Z"
+              "WhenOpened": "2025-12-17T00:16:35.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Account.cs",
               "DocumentMoniker": "E:\\!\\MMessages\\KRApi\\KRApi\\Classes\\Account.cs",
               "RelativeDocumentMoniker": "KRApi\\Classes\\Account.cs",
@@ -98,11 +100,12 @@
               "RelativeToolTip": "KRApi\\Classes\\Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T00:13:45.125Z"
+              "WhenOpened": "2025-12-17T00:13:45.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "KRApi.csproj",
               "DocumentMoniker": "E:\\!\\MMessages\\KRApi\\KRApi\\KRApi.csproj",
               "RelativeDocumentMoniker": "KRApi\\KRApi.csproj",
@@ -110,11 +113,12 @@
               "RelativeToolTip": "KRApi\\KRApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-16T08:05:50.495Z"
+              "WhenOpened": "2025-12-16T08:05:50.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DBChatContext.cs",
               "DocumentMoniker": "E:\\!\\MMessages\\KRApi\\KRApi\\DBChatContext.cs",
               "RelativeDocumentMoniker": "KRApi\\DBChatContext.cs",
@@ -145,7 +149,7 @@
               "RelativeDocumentMoniker": "KRApi\\ChatHub.cs",
               "ToolTip": "E:\\!\\MMessages\\KRApi\\KRApi\\ChatHub.cs",
               "RelativeToolTip": "KRApi\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T08:01:20.438Z",
               "EditorCaption": ""

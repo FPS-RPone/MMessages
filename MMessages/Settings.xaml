@@ -1,0 +1,22 @@
+﻿<Window x:Class="MixedMessagesClient.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MixedMessagesClient"
+        mc:Ignorable="d"
+        Title="Settings" Height="350" Width="400" Background="#282828" FontSize="18">
+    <Grid>
+        <TextBlock Text="Настройки" HorizontalAlignment="Center" Margin="25" Foreground="WhiteSmoke" FontWeight="DemiBold"/>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+            <TextBlock Text="Шрифт приложения:" Padding="5" Margin="5" Foreground="WhiteSmoke"/>
+            <ComboBox Margin="5" Padding="5" Text="Segoe UI" Name="cBoxFont">
+                <ComboBoxItem>Segoe UI</ComboBoxItem>
+            </ComboBox>
+            <ComboBox Margin="5" Padding="5" Text="Segoe UI" Name="cBoxFontSize">
+                <ComboBoxItem>18</ComboBoxItem>
+            </ComboBox>
+            <TextBox Text="#282828" Name="tBoxBackgroundColor" Margin="5" Padding="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

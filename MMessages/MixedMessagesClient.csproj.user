@@ -2,7 +2,13 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Contacts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Mess.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
